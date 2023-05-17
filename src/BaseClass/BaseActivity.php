@@ -6,7 +6,7 @@ use waqar\activitylog\Events\LogActivity;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 
-abstract class BaseModel extends Model
+abstract class BaseActivity extends Model
 {
     protected static $arrActivity = [];
 

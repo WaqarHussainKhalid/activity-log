@@ -37,7 +37,7 @@ protected $listen => [
       ],
 ],
 ```
-Next extends the ``BaseModel`` class in ``Model`` which need to use:
+Next extends the ``BaseActivity`` class in ``Model`` which need to use:
 
 Like below:
 ```
@@ -45,11 +45,11 @@ Like below:
 
 namespace App\Models;
 
-use bushart\activitylog\BaseClass\BaseModel;
+use bushart\activitylog\BaseClass\BaseActivity;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Log extends BaseModel
+class Log extends BaseActivity
 {
     use HasFactory;
 }
